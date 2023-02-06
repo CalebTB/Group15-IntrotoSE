@@ -1,9 +1,9 @@
 # Group15-IntrotoSE
 Repo for Intro to Software Engineering
 
-Brandon Beavers: 
-Caleb Byers:
-Preston Leeroy:
+Brandon Beavers/invalid04 : Project Lead
+Caleb Byers/CalebTB:
+Preston Leeroy/:
 
 Language and techniques: HTML5, CSS3, and Javascript
 
