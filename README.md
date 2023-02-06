@@ -2,7 +2,7 @@
 Repo for Intro to Software Engineering
 
 Brandon Beavers/invalid04 : Project Lead
-Caleb Byers/CalebTB:
+Caleb Byers/CalebTB: Software Developer
 Preston Leeroy/:
 
 Language and techniques: HTML5, CSS3, and Javascript
