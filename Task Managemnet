@@ -1,7 +1,10 @@
 Task Distribution:
 
-Brandon: Buyer
+Brandon: Buyer (use case diagram, class diagram)
+         Architecture and component-level design diagrams
 
-Caleb: Seller
+Caleb: Seller (use case diagram, class diagram)
+       Sequence diagrams
 
-Preston: Admin
+Preston: Admin (use case diagram, class diagram)
+         State and activity diagrams
