@@ -2,17 +2,12 @@
 
 As a new user, I want to be able to create an account on the website so that I can access its features and personalized experience.
 I expect to see a clear and accessible "Sign Up" button on the homepage, which will take me to a registration form. 
-The form should prompt me to enter my email address, username, password, and any other necessary information to create an account.
-After successfully submitting the form, I should receive a confirmation email to my provided email address. 
-The email should contain a link to activate my account and log me in for the first time.
-Upon activation, I should be redirected to my account dashboard, where I should see options to customize my experience and start using the website's features.
-This feature will allow me to create a secure and personalized account on the website and start using its features to my benefit.
-
+The form should prompt me to enter my email address and password, and any other necessary information to create an account. 
 
 1.2 USER LOGIN/LOGOUT 
 
 As a user, I want to be able to log into my account so that I can access my personalized experience and saved information on the website.
-I expect to see a login form on the homepage where I can enter my username and password.
+I expect to see a login form on the homepage where I can enter my email and password.
 After I successfully enter my credentials, I want to be redirected to my account dashboard where I can see all my saved information and options to customize my experience.
 Additionally, I want to be able to log out of my account whenever I want to end my session. I expect to see a logout button on my account dashboard or in a menu accessible from anywhere on the site. 
 After clicking the logout button, I should be logged out of my account and redirected back to the homepage.
@@ -24,39 +19,28 @@ This feature will allow me to securely access my account and manage my session o
 As a user shopping on the website, I want to be able to easily search for products so that I can quickly find what I am looking for.
 I expect to see a search bar prominently displayed on the homepage, which I can use to enter my search query. 
 After entering my query and hitting the search button, I should be taken to a search results page.
-The search results page should display a list of products that match my search query, along with relevant information such as product name, price, and images.
-I should be able to sort the results by relevance, price, popularity, or any other relevant criteria.
-Additionally, I should be able to refine my search results by applying filters such as product category, brand, price range, and other relevant attributes. 
-This will allow me to quickly narrow down my search results to find the exact product I am looking for.
-This feature will make it easy for me to search for and find the products I am interested in, without having to navigate through multiple pages or menus.
+The search results page should display a list of products that match my search query, along with relevant information such as product name, price, and images. 
 
 
-1.4 BUYER ADDING PAYMENT
-
-As a buyer, I want to add my payment information so that I can make purchases quickly and easily. After adding the desired products to my cart and proceeding to checkout, I am prompted to enter my payment information.
-I click on the "Add Payment Method" button and enter my credit card information. I can also choose to save my payment information for future purchases, making the checkout process even quicker and more convenient.
-After verifying my payment information, I click on the "Submit" button to complete my purchase. I receive a confirmation message that my payment has been processed successfully.
-
-
-1.5 BUYER RETURNING PRODUCT
+1.4 BUYER RETURNING PRODUCT
 
 As a buyer, I want the ability to return a faulty product. I should be able to visit the PrimePLUS webiste, navigate to the "return" section, and complete a product return.
 
 
-1.6 SELLER ADDING PRODUCTS
+1.5 SELLER ADDING PRODUCTS
 
 As a seller, I want to add items to sell so that I can showcase my products to potential buyers and increase my sales. I log in to my seller account on the PrimePLUS website and navigate to the "Add Products" section.
-I click on the "Add Product" button and enter the product's details, such as its name, description, price, and images. After entering all the necessary information, I click on the "Save" button, and the product is added to my seller inventory.
+I click on the "Add Product" button and enter the product's details, such as its name, price, and images. After entering all the necessary information, I click on the "Save" button, and the product is added to my seller inventory.
 I can also manage my products from my seller account, such as updating the price, changing the product information, or removing the product from my inventory.
 
 
-1.7 ADMIN ACCOUNT REMOVAL
+1.6 ADMIN ACCOUNT REMOVAL
 
 As an admin, I want to remove an account so that I can ensure the safety and security of PrimePLUS and its users. I log in to my admin account on the PrimePLUS website and navigate to the "Manage Accounts" section.
 I search for the account that needs to be removed, and once I find it, I click on the "Remove Account" button.
 PrimePLUS prompts me to confirm the action, ensuring that I am intentionally removing the account. Once I confirm, the account is permanently deleted from the database.
 
-1.8 ADMIN PRODUCT REMOVAL
+1.7 ADMIN PRODUCT REMOVAL
 
 As an admin, I want to remove a product from PrimePLUS so that I can maintain the quality and relevance of the products offered to users. I log in to my admin account on the PrimePLUS website and navigate to the "Manage Products" section.
 I search for the product that needs to be removed, and once I find it, I click on the "Remove Product" button.
