@@ -1,17 +1,34 @@
 1.1 NEW ACCOUNT CREATION
 
 As a new user, I want to be able to create an account on the website so that I can access its features and personalized experience.
-I expect to see a clear and accessible "Sign Up" button on the homepage, which will take me to a registration form. 
+I expect to see a sign-up form when I enter the website.
 The form should prompt me to enter my email address and password, and any other necessary information to create an account. 
+
+Steps: 
+  1. Create the layout of the design form.
+    a. Add input fields for email and password.
+    b. Add role select for admin, buyer, or seller.
+  2. Add functionality to the signup form with react and firebase.
+  3. Test the form.
+  
+
 
 1.2 USER LOGIN/LOGOUT 
 
 As a user, I want to be able to log into my account so that I can access my personalized experience and saved information on the website.
-I expect to see a login form on the homepage where I can enter my email and password.
-After I successfully enter my credentials, I want to be redirected to my account dashboard where I can see all my saved information and options to customize my experience.
+I expect to see a login form where I can enter my email and password.
+After I successfully enter my credentials, I want to be redirected to my account dashboard where I can see all my saved information.
 Additionally, I want to be able to log out of my account whenever I want to end my session. I expect to see a logout button on my account dashboard or in a menu accessible from anywhere on the site. 
 After clicking the logout button, I should be logged out of my account and redirected back to the homepage.
 This feature will allow me to securely access my account and manage my session on the website.
+
+Steps:
+  1. Create a login form.
+  2. Add functionality to the form with react and firebase.
+  3. Add a logout button to the navbar in the webpages.
+  4. Make the logout button functional.
+  5. Test the form.
+  
 
 
 1.3 BUYER PRODUCT SEARCH
@@ -30,18 +47,37 @@ As a buyer, I want the ability to return a faulty product. I should be able to v
 1.5 SELLER ADDING PRODUCTS
 
 As a seller, I want to add items to sell so that I can showcase my products to potential buyers and increase my sales. I log in to my seller account on the PrimePLUS website and navigate to the "Add Products" section.
-I click on the "Add Product" button and enter the product's details, such as its name, price, and images. After entering all the necessary information, I click on the "Save" button, and the product is added to my seller inventory.
-I can also manage my products from my seller account, such as updating the price, changing the product information, or removing the product from my inventory.
+I go to the Add Product form and input the name, price, and image of the product I want to submit. I then click the submit button and my product is added to PrimePLUS.
+
+Steps: 
+  1. Create an Add Product form.
+    a. Add the name, price, and image upload fields.
+    b. Add a submit button
+  2. Add functionality to the form so that when a seller submits the product it is then added to the product database.
+
 
 
 1.6 ADMIN ACCOUNT REMOVAL
 
-As an admin, I want to remove an account so that I can ensure the safety and security of PrimePLUS and its users. I log in to my admin account on the PrimePLUS website and navigate to the "Manage Accounts" section.
-I search for the account that needs to be removed, and once I find it, I click on the "Remove Account" button.
-PrimePLUS prompts me to confirm the action, ensuring that I am intentionally removing the account. Once I confirm, the account is permanently deleted from the database.
+As an admin, I want to remove an account so that I can ensure the safety and security of PrimePLUS and its users. I log in to my admin account on the PrimePLUS website and navigate to the Users section.
+If I see a user I want to delete, I click the Remove User button and the user is removed from the website.
+
+Steps: 
+  1. Create a users section
+  2. Using firebase and react, show a list of all users.
+  3. Create a Remove User button that is connected to firebase that allows the admin to remove the account.
+  4. Test 
+  
+  
 
 1.7 ADMIN PRODUCT REMOVAL
 
-As an admin, I want to remove a product from PrimePLUS so that I can maintain the quality and relevance of the products offered to users. I log in to my admin account on the PrimePLUS website and navigate to the "Manage Products" section.
-I search for the product that needs to be removed, and once I find it, I click on the "Remove Product" button.
-The PrimePLUS prompts me to confirm the action, ensuring that I am intentionally removing the product. Once I confirm, the product is permanently deleted from the database.
+As an admin, I want to remove a product from PrimePLUS so that I can maintain the quality and relevance of the products offered to users. I log in to my admin account on the PrimePLUS website and navigate to the Products section.
+I search find the product that needs to be removed, and once I find it, I click on the "Remove Product" button.
+Once I click the button, the product is permanently deleted from the database.
+
+Steps:
+  1. Create a Products section
+  2. Using firebase and react, show a list of all products
+  3. Create a Remove Product button that is connected to firebase that allows the admin to remove the product.
+  4 Test
