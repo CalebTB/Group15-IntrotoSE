@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --teal-color: #08e8de;
+  --yellow-color: #f890e7;
+  --white-color: #ffffff;
+  --black-color: #000;
+  --grey-color: #dedede;
+  --body-color: #e3e6e6;
+}
+
+.buyerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black-color);
+  height: 50px;
+}
+
+.buyerNavLogo {
+  font-size: 28px;
+  color: var(--teal-color);
+  font-weight: bold;
+  margin-left: 10px;
+  text-shadow: 2px 2px 0 var(--yellow-color);
+}
+
+.searchBar {
+  flex: 1;
+  max-width: 800px;
+  height: 30px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.buyerLogoutBtn {
+  background-color: var(--black-color);
+  color: white;
+  border: none;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}

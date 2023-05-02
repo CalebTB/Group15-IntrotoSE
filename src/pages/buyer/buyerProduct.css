@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --teal-color: #08e8de;
+  --yellow-color: #f890e7;
+  --white-color: #ffffff;
+  --black-color: #000;
+  --grey-color: #dedede;
+  --body-color: #e3e6e6;
+}
+
+.buyerProductCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  margin: 15px;
+  overflow: hidden;
+  float: left;
+  width: 220px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.buyerImg {
+  height: 150px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+
+.buyerCardTopRow {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.buyerProductDesc {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.btnRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.compareBtn, .addToCartBtn {
+  height: 30px;
+  width: 90px;
+  cursor: pointer;
+  background-color: var(--teal-color);
+  border: none;
+}
