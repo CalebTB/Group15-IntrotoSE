@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --teal-color: #08e8de;
+  --yellow-color: #f890e7;
+  --white-color: #ffffff;
+  --black-color: #000;
+  --grey-color: #dedede;
+  --body-color: #e3e6e6;
+}
+
+.sellerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black-color);
+  height: 50px;
+}
+
+.sellerNavLogo {
+  font-size: 28px;
+  color: var(--teal-color);
+  font-weight: bold;
+  margin-left: 10px;
+  text-shadow: 2px 2px 0 var(--yellow-color);
+}
+
+.productHeader {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.addProductForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .price, .file, .description {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+  width: calc(100vw - 20px);
+}
+
+.title, .price, .description {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.submit {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 50px;
+  width: calc(100vw - 20px);
+}
+
+.logoutBtn {
+  background-color: var(--black-color);
+  color: white;
+  border: none;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
