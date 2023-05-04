@@ -1,31 +1,31 @@
-import React, { useState } from "react";
-import { auth } from "./firebase";
-import './login.css';
+import React, { useState } from 'react'
+import { auth } from './firebase'
+import './login.css'
 
 export function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [role, setRole] = useState("");
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [role, setRole] = useState('')
 
   const handleLogin = (event) => {
-    event.preventDefault();
+    event.preventDefault()
     auth.signInWithEmailAndPassword(email, password).then(() => {
       // Redirect to appropriate page based on user role
       switch (role) {
-        case "buyer":
-          window.location.href = "/buyer";
-          break;
-        case "seller":
-          window.location.href = "/seller";
-          break;
-        case "admin":
-          window.location.href = "/admin";
-          break;
+        case 'buyer':
+          window.location.href = '/buyer'
+          break
+        case 'seller':
+          window.location.href = '/seller'
+          break
+        case 'admin':
+          window.location.href = '/admin'
+          break
         default:
-          console.log("Invalid role");
+          console.log('Invalid role')
       }
-    });
-  };
+    })
+  }
 
   return (
     <div className="login">
@@ -50,7 +50,10 @@ export function Login() {
         <br />
         <label>
           Role:
-          <select value={role} onChange={(event) => setRole(event.target.value)}>
+          <select
+            value={role}
+            onChange={(event) => setRole(event.target.value)}
+          >
             <option value="">Select a role</option>
             <option value="buyer">Buyer</option>
             <option value="seller">Seller</option>
@@ -61,5 +64,5 @@ export function Login() {
         <button type="submit">Sign In</button>
       </form>
     </div>
-  );
+  )
 }

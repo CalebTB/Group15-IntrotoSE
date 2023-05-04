@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --teal-color: #08e8de;
+  --yellow-color: #f890e7;
+  --white-color: #ffffff;
+  --black-color: #000;
+  --grey-color: #dedede;
+  --body-color: #e3e6e6;
+}
+
+.cartContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.cartImg {
+  height: 125px;
+  width: 125px;
+}
+
+.cartLeft {
+  display: flex;
+}
+
+.cartTop {
+  display: flex;
+  margin-left: 10px;
+}
+
+.cartPrice {
+  margin-left: 10px;
+}
+
+.cartRemove {
+  height: 50px;
+  width: 150px;
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.cartRemove:hover {
+  background-color: darkred;
+}
+
+.checkoutBtn {
+  margin-left: 20px;
+  height: 50px;
+  width: calc(100vw - 40px);
+  cursor: pointer;
+}
